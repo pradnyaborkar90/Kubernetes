@@ -4,7 +4,7 @@ metadata:
   name: attach-ssl
   annotations:
     kubernetes.io/ingress.global-static-ip-name: "static-ip"
-    networking.gke.io/managed-certificates: 
+    networking.gke.io/managed-certificates: certificate-for-domain
 spec:
   backend:
     serviceName: backend-service
